@@ -3,7 +3,7 @@ services:
   app:
     build:
       args:
-        user: erbi
+        user: www-data
         uid: 1000
       context: ./
       dockerfile: Dockerfile
